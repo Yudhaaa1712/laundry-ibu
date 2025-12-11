@@ -12,8 +12,4 @@ export function getServiceSupabase() {
   });
 }
 
-export const SERVICE_RATES: Record<string, number> = {
-  'Cuci + Setrika': 7000,
-  'Cuci Saja': 5000,
-  'Setrika Saja': 4000,
-};
+

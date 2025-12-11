@@ -11,6 +11,7 @@ import {
   payWage,
   updateTransactionStatus
 } from './actions';
+import { SERVICE_RATES } from '../lib/constants';
 import {
   Calculator,
   Coins,
@@ -29,11 +30,7 @@ import {
   PartyPopper
 } from 'lucide-react';
 
-const SERVICE_RATES: Record<string, number> = {
-  'Cuci + Setrika': 5000,
-  'Cuci Saja': 3000,
-  'Setrika Saja': 3000,
-};
+
 
 const fmtIDR = new Intl.NumberFormat('id-ID', { style: 'currency', currency: 'IDR', minimumFractionDigits: 0 });
 

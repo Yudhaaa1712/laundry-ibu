@@ -1,7 +1,8 @@
 'use server';
 
 import { revalidatePath } from 'next/cache';
-import { getServiceSupabase, SERVICE_RATES } from '../lib/supabase';
+import { getServiceSupabase } from '../lib/supabase';
+import { SERVICE_RATES } from '../lib/constants';
 
 function startOfTodayISO() {
   const d = new Date();
