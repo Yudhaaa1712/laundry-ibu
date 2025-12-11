@@ -30,9 +30,9 @@ import {
 } from 'lucide-react';
 
 const SERVICE_RATES: Record<string, number> = {
-  'Cuci + Setrika': 7000,
-  'Cuci Saja': 5000,
-  'Setrika Saja': 4000,
+  'Cuci + Setrika': 5000,
+  'Cuci Saja': 3000,
+  'Setrika Saja': 3000,
 };
 
 const fmtIDR = new Intl.NumberFormat('id-ID', { style: 'currency', currency: 'IDR', minimumFractionDigits: 0 });
